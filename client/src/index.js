@@ -5,7 +5,7 @@ import { ApolloProvider } from 'react-apollo';
 import App from './App';
 
 const client = new ApolloClient({
-  	uri: 'https://create-mern-app-graphql-production.up.railway.app/',
+  	uri: 'https://create-mern-app-graphql-production.up.railway.app',
 })
 
 ReactDOM.render(
