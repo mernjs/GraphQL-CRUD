@@ -5,7 +5,7 @@ import { ApolloProvider } from 'react-apollo';
 import App from './App';
 
 const client = new ApolloClient({
-  	uri: 'http://localhost:8080',
+  	uri: 'https://graphql-production-64fa.up.railway.app',
 })
 
 ReactDOM.render(
