@@ -40,7 +40,7 @@ const TodoList = () => (
 			return (
 				<>
 					<AddUserForm/>
-					<List>{users?.map((item ) => <UserItem key={item._id} id={item._id} {...item} />)}</List>;
+					<List>{users?.map((item ) => <UserItem key={item._id} id={item._id} {...item} />)}</List>
 				</>
 			)
 		}}
